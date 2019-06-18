@@ -12,7 +12,6 @@ CONST_N = 100
 #__CLOUDBOOK:PARALLEL__
 def compute_body(single_body, iteration):
 	global body_list
-	global body_new
 	
 	fx=0.0
 	fy=0.0

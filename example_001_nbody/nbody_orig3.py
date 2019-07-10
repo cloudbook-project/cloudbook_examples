@@ -61,7 +61,7 @@ def compute_contribution_force(bodyA, bodyB):
 
 def main():
 	global body_list
-	MAX_ITERATIONS = 10	
+	MAX_ITERATIONS = 1
 	start = time.time()
 	
 	for j in range(MAX_ITERATIONS):

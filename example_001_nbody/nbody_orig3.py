@@ -31,7 +31,7 @@ def compute_body(single_body, iteration):
 	body_new.append(new_single_body)
 	#print("Exit from computebody")
 
-#__IDEMPOTENT__
+#__CLOUDBOOK:LOCAL__
 def compute_contribution_force(bodyA, bodyB):
 	m1 = bodyA[0]
 	x1 = bodyA[1]
